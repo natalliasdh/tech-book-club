@@ -5,6 +5,7 @@ html, body {
 body {
     display:flex;
     flex-direction:column;
+    font-family: "Martian Mono", monospace;
 }
 
 main {
@@ -14,4 +15,42 @@ main {
 
 footer {
     flex-shrink:0;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.pattern-bg {
+background-image: url(../images/pattern-light-bg.svg);
+background-position: center top;
+background-repeat: no-repeat;
+
+background-color: #FFF5EF;
+
+}
+
+.club-photo img {
+    width: 100%;
+    height:auto;
+    border-radius:10px;
+}
+
+.join-club {
+    padding:24px 16px 80px 16px;
+    display:flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size:62px;
+    letter-spacing:-2px;
+    line-height: 120%;
+
+    background: -webkit-linear-gradient(-45deg, #FF9A60 11%, #062630 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
