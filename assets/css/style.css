@@ -138,3 +138,24 @@ button {
     margin-top:64px;
    
 }
+
+
+h2 {
+    font-size: 34px;
+    line-height: 130%;
+    letter-spacing: -2px;
+    font-family: "Martian Mono", monospace;
+    color: #062630;
+}
+
+.read-together {
+    margin-top: 64px;
+    margin-bottom: 40px;
+    padding: 0 16px;
+    background-color: #FF9A60;
+}
+
+.club-benefits ul {
+    width: 100%;
+    list-style-position: inside;
+}
