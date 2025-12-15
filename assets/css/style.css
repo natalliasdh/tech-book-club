@@ -146,16 +146,33 @@ h2 {
     letter-spacing: -2px;
     font-family: "Martian Mono", monospace;
     color: #062630;
+    margin-bottom: 24px;
 }
 
 .read-together {
     margin-top: 64px;
     margin-bottom: 40px;
     padding: 0 16px;
-    background-color: #FF9A60;
+   
 }
 
-.club-benefits ul {
+.benefit-item {
+    display:flex;
+    margin-top:16px;
+    
+}
+
+.benefit-item img {
+    padding: 14px 14px 14px 0;
+}
+
+.read-together-photo {
+    width:100%;
+
+}
+.read-together-photo img {
     width: 100%;
-    list-style-position: inside;
+    height:auto;
+    margin-top:40px;
+    border-radius:15px;
 }
