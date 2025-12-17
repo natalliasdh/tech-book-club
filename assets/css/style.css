@@ -30,8 +30,12 @@ footer {
 }
 
 .pattern-bg {
-background-image: url(../images/pattern-light-bg.svg);
-background-position: center top;
+background-image: 
+              url(../images/pattern-light-bg.svg),
+              url(../images/pattern-glow.svg);
+background-position: 
+                    center top,
+                    right -600px bottom -450px;
 background-repeat: no-repeat;
 
 background-color: #FFF5EF;
@@ -150,7 +154,7 @@ h2 {
     font-weight:600;
 }
 
-.read-together {
+.read-together, .your-journey {
     margin-top: 64px;
     margin-bottom: 40px;
     padding: 0 16px;
@@ -194,4 +198,34 @@ h2 {
     
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.step {
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 22px;
+}
+
+.step-number { 
+    border: 2px solid #062630;
+    border-radius:4px;
+    width:32px;
+    height:32px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:15px;
+}
+
+.steps {
+    font-size: 16px;
+    color: #062630;
+    letter-spacing:-1px;
+     font-family: "Martian Mono", monospace;
+     font-weight:600;
+}
+
+.your-journey  {
+    padding-top:64px;
+    padding-bottom: 64px;
 }
