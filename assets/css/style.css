@@ -147,6 +147,7 @@ h2 {
     font-family: "Martian Mono", monospace;
     color: #062630;
     margin-bottom: 24px;
+    font-weight:600;
 }
 
 .read-together {
@@ -170,9 +171,27 @@ h2 {
     width:100%;
 
 }
-.read-together-photo img {
+.read-together-photo img, .not-average img {
     width: 100%;
     height:auto;
     margin-top:40px;
     border-radius:15px;
+}
+
+.not-average {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.language {
+    font-weight:bold;
+}
+
+.pattern {
+    background-image: url(../images/pattern-circle.png);
+    
+    background-repeat: no-repeat;
+    background-size: contain;
 }
